@@ -1,6 +1,8 @@
-require("../molecules/form")
+require("../organisms/description");
+require("../molecules/form");
+require("../organisms/tanzaku");
 
-<bullet-home>
-  <h1>BULLET HOME HERE </h1>
-  <bullet-form></bullet-form>
-</bullet-home>
+<star-home>
+  <star-description></star-description>
+  <star-tanzaku></star-tanzaku>
+</star-home>

@@ -1,4 +1,4 @@
 require("../templates/home")
 <app>
-  <bullet-home></bullet-home>
+  <star-home></star-home>
 </app>
