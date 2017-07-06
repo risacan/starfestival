@@ -1,0 +1,27 @@
+{
+  "name": "bulletjournal",
+  "version": "0.0.1",
+  "description": "simplest todo list",
+  "main": "src/index.js",
+  "repository": {
+    "url": "git+https://github.com/risacan/bulletjournal.git",
+    "type": "git"
+  },
+  "author": "risacan",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot",
+    "deploy": "webpack --optimize-minimize && firebase deploy"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.1",
+    "dotenv": "^4.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "riot": "^3.6.1",
+    "riotjs-loader": "^4.0.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
