@@ -12,11 +12,10 @@ require("../molecules/form")
   <style>
     star-description div {
       background-color: #eee;
-      margin: 8px auto;
+      margin: 30px auto 10px;
       padding: 20px;
       border-radius: 10px;
       max-width: 800px;
     }
   </style>
 </star-description>
-
