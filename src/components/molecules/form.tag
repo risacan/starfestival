@@ -1,6 +1,6 @@
 <star-form>
   <form onsubmit={ postWish }>
-    <input placeholder="Write your wishes!" ref="wishes">
+    <input placeholder="かならず叶うよ!" ref="wishes">
     <button>🖋</button>
   </form>
   <style>
